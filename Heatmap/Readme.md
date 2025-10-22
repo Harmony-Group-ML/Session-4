@@ -1,3 +1,4 @@
+<div dir="rtl">
 #  Heatmap در تحلیل همبستگی
 
 ##  تعریف
@@ -31,3 +32,5 @@ import matplotlib.pyplot as plt
 sns.heatmap(df.corr(), annot=True, cmap='coolwarm')
 plt.title("Correlation Heatmap")
 plt.show()
+
+</div>
